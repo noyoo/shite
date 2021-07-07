@@ -1,0 +1,24 @@
+{
+  "background": {
+    "type": "video-input",
+    "label": "webm z tłem",
+    "value": ""
+},
+  "timetoreturn": {
+    "type": "number",
+    "label": "Czas, po którym kolor wraca (ms)",
+    "value": 5000
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "no(yo)we kolorki"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "noyo"
+  },
+"widgetDuration": {
+  "type": "hidden",
+  "value": 5
+}
+}
