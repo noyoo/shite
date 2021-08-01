@@ -1,9 +1,4 @@
 {
-  "title": {
-    "type": "text",
-    "label": "Title",
-    "value": "Vote time!"
-  },
   "optA": {
     "type": "video-input",
     "label": "webm z opcją A",
@@ -89,20 +84,12 @@
       "no": "No"
     }
   },
-  "widgetName": {
+   "widgetName": {
     "type": "hidden",
-    "value": "Quick Poll"
+    "value": "Ankietka 2.0"
   },
   "widgetAuthor": {
     "type": "hidden",
-    "value": "lx"
+    "value": "noyo"
   },
-  "widgetVersion": {
-    "type": "hidden",
-    "value": "1.0"
-  },
-  "widgetUpdateUrl": {
-    "type": "hidden",
-    "value": "https://github.com/StreamElements/widgets/blob/master/QuickPoll/"
-  }
 }
