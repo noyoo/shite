@@ -31,7 +31,7 @@ window.addEventListener('onEventReceived', function (obj) {
                 isActive = true;
                 $("#optiona").css("height", '50%');
                 $("#optionb").css("height", '50%');
-                $(".main-container").fadeIn(1000);
+                $(".main-container").fadeIn(userOptions['fadetime']);
                 time = userOptions['pollTime'];
                 interval = setInterval(countDown, 1000);
               
@@ -87,7 +87,7 @@ function announceResults() {
     let myAudio = new Audio('//api.streamelements.com/kappa/v2/speech?voice=' + userOptions['voice'] + '&text=' + encodeURI(message));
     myAudio.addEventListener('ended', function () {
 
-        $(".main-container").fadeOut(1000);
+        $(".main-container").fadeOut(userOptions['fadetime']);
 
     }, false);
     myAudio.volume = parseInt(userOptions['volume']) / 100;
