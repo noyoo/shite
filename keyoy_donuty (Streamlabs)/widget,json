@@ -1,0 +1,12 @@
+{
+    "x": {
+        "label": "x",
+        "type": "image-input",
+        "value": "https://uploads.twitchalerts.com/000/205/973/601/iksik.png"
+    },
+    "dash": {
+        "label": "-",
+        "type": "image-input",
+        "value": "https://uploads.twitchalerts.com/000/205/973/601/bar.png"
+    }
+}
