@@ -9,6 +9,7 @@
   text-align: center;
   width: 358px;
   max-width: 358px;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 #top{
@@ -44,9 +45,24 @@ padding-top: 40px;
   color: #ffff00 !important;
 }
 
-#kreska{
+#a{
   padding-top: 60px;
+  padding-bottom: 50px;
 }
+#kreska{
+    transform: scaleX(0);
+  animation: perish 5s ease;
+}
+
+@keyframes perish{
+  0%{
+    transform: scaleX(1);
+  }
+  100%{
+    transform: scaleX(0);
+  }
+}
+
 
 .dont-break-out {
 
@@ -67,3 +83,10 @@ padding-top: 40px;
   hyphens: auto;
 
 }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
